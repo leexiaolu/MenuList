@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
+
         //默认注册上下文menu
         registerForContextMenu(btContext);
 
